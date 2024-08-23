@@ -1,0 +1,366 @@
+body {
+    background-color: #040A11;
+    font-family: 'Montserrat', 'Sans-serif';
+    margin: 0; /* Remove default body margin */
+    height: 100vh; /* Full viewport height */
+    display: inline-block;
+}
+
+.header {
+    display: flex; /* Flex container */
+    width: 100%; /* Full width */
+    max-width: 1200px; /* Optional: Limit max-width if needed */
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto; /* Center horizontally */
+    background-color: #040A11;
+    position: fixed;
+    top: 0; /* Ensure it's positioned at the top */
+    left: 0; /* Align it to the left edge of the viewport */
+    right: 0; /* Align it to the right edge of the viewport */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    padding: 0 20px; /* Optional: Add some padding for better appearance */
+}
+
+#home {
+    margin-top: 200px;
+}
+
+
+.header .logoimg{
+    font-size: 20px;
+    color: white;
+}
+
+.header a {
+    color: rgb(153, 153, 153);
+    font-size: 13px;
+    text-decoration: none;
+    margin: 30px 30px 5px 30px;
+    font-weight: 500;
+}
+
+.downloadcvbtn {
+    align-items: center;
+    appearance: none;
+    background-color: #fff;
+    border-radius: 24px;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+    box-sizing: border-box;
+    color: #3c4043;
+    cursor: pointer;
+    display: inline-flex;
+    fill: currentcolor;
+    font-size: 13px;
+    font-weight: 600;
+    height: 48px;
+    justify-content: center;
+    letter-spacing: .25px;
+    line-height: normal;
+    max-width: 100%;
+    overflow: visible;
+    padding: 2px 24px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: auto;
+    will-change: transform,opacity;
+    z-index: 0;
+}
+
+.header a.SelectedNav  {
+    color: white;
+    font-weight: 700;
+}
+
+.container1 {
+    display: flex; /* Ensure the container uses flexbox */
+    flex-direction: row; /* Align child elements in a row */
+    /* border: 3px solid green; */
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    width: 80%;
+    height: 75vh;
+    max-height: 600px;
+    justify-content: center; /* Center child elements horizontally */
+    align-items: center; /* Center child elements vertically */
+    gap: 50px;
+}
+
+.contact_container {
+    display: flex; /* Ensure the container uses flexbox */
+    flex-direction: row; /* Align child elements in a row */
+    /* border: 3px solid green; */
+    margin-bottom: 100px;
+    margin-top: 100px;
+    margin: auto;
+    width: 80%;
+    height: 75vh;
+    max-height: 600px;
+    justify-content: center; /* Center child elements horizontally */
+    align-items: flex-start; /* Center child elements vertically */
+}
+
+
+.container2, .container3 {
+    width: 50%;
+}
+
+.container3 {
+    display: inline-flex;
+    justify-content: center; /* Center children horizontally */
+    align-items: center; /* Center children vertically */
+}
+
+.container3 h1 {
+    font-size: 200px;
+}
+
+.container3 .contact{
+    justify-content: left; /* Center children horizontally */
+    color: white;
+}
+
+
+.intro {
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+}
+
+.name {
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+}
+
+.about {
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.description {
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+}
+
+.socials {
+    display: flex; /* Align children in a row */
+    justify-content: start; /* Align items to the left */
+    align-items: center;
+    gap: 0px; /* Space between icons */
+}
+
+.socialstwo {
+    display: inline-flex;
+    flex-direction: column; /* Arrange children vertically */
+    justify-content: start; /* Align items to the top */
+    align-items: start; /* Align items to the left */
+    gap: 5px; /* Space between icons */
+}
+
+.socialstwo .socials-icons {
+    width: 30%;
+}
+
+.socials-item {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.socials-icons {
+    width: 20px; /* Adjust the width as needed */
+    max-width: 50px; /* Set a maximum width */
+    height: 20px; /* Maintain aspect ratio */
+    max-height: 100px;
+    display: inline-block;
+    background-size: contain; /* Ensure the SVG scales to fit the element */
+    background-repeat: no-repeat; /* Prevent background from repeating */
+    filter: brightness(0) invert(1); /* Apply filter for icon colors */
+    margin-right: 10px;
+}
+
+.socials-icons2 {
+    width: 30px; /* Adjust the width as needed */
+    max-width: 50px; /* Set a maximum width */
+    height: 30px; /* Maintain aspect ratio */
+    max-height: 100px;
+    display: inline-block;
+    background-size: cover; /* Ensure the SVG scales to fit the element */
+    background-repeat: no-repeat; /* Prevent background from repeating */
+    filter: brightness(0) invert(1); /* Apply filter for icon colors */
+    margin-right: 10px;
+}
+
+.socialstwo p {
+    font-size: 13px;
+    font-weight: 500;
+    color: white;
+}
+
+.emailTxt {
+    font-size: 13px;
+    font-weight: 500;
+    display: inline-block;
+    color: white;
+}
+
+/* Specific icons with their SVG paths */
+.facebook {
+    background-image: url('/img/facebook-176-svgrepo-com.svg');
+}
+
+.messenger {
+    background-image: url('/img/messenger-fill-svgrepo-com.svg');
+}
+
+.twitter {
+    background-image: url('/img/twitter-svgrepo-com.svg');
+}
+
+.instagram {
+    background-image: url('/img/instagram-svgrepo-com.svg');
+}
+
+.github {
+    background-image: url('/img/github-svgrepo-com.svg');
+}
+
+.discord {
+    background-image: url('/img/discord-svgrepo-com.svg');
+}
+
+.email {
+    background-image: url('/img/email-svgrepo-com.svg');
+}
+
+#profile {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%; /* Makes the profile image circular */
+    box-shadow: 0 0 80px rgba(6, 14, 24, 0.8), 
+            0 0 120px rgba(6, 14, 24, 0.6);
+}
+
+.form-container {
+    background: transparent;
+    border-radius: 8px;
+    width: 100%;
+    justify-content: right;
+}
+
+.form-container input {
+    font-family: 'Montserrat', sans-serif;
+    width: 80%;
+    padding: 10px;
+    border: 0px solid #ddd;
+    padding-left: 15px;
+    margin: 7px 0;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #0a1522;
+}
+
+.form-container label {
+    font-size: 15px;
+    color: white;
+}
+
+.form-container #message{
+    font-family: 'Montserrat', sans-serif;
+    width: 80%;
+    padding: 10px;
+    padding-left: 15px;
+    margin: 7px 0;
+    border: 0px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #0a1522;
+}
+
+.form-container button {
+    font-family: 'Montserrat', sans-serif;
+    width: 30%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0a1522;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* Pointer */
+.circle3 {
+    position: fixed;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #060E18; /* Solid white background */
+    pointer-events: none;
+    transition: transform 2s ease-out;
+
+    /* Enhance the glowing white shadow */
+    box-shadow: 0 0 80px rgba(6, 14, 24, 0.8), 
+            0 0 120px rgba(6, 14, 24, 0.6);
+
+    filter: brightness(2); /* Increase brightness */
+    opacity: 0.1; /* Full opacity */
+}
+
+.circle2 {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid white; /* Add a 1px white border */
+    pointer-events: none;
+    transition: transform 2s ease-out;
+}
+
+.circle {
+    position: fixed;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: white;
+    pointer-events: none;
+    transition: transform 2s ease-out;
+}
+
+footer {
+    padding: 10px; /* Apply 10px padding on all sides */
+    padding-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+    font-size: 13px;
+    color: white;
+    justify-content: center; /* Center child elements horizontally */
+    align-items: center; /* Center child elements vertically */
+    background-color: #060E18;
+}
