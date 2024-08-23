@@ -228,31 +228,31 @@ body {
 
 /* Specific icons with their SVG paths */
 .facebook {
-    background-image: url('/img/facebook-176-svgrepo-com.svg');
+    background-image: url('./img/facebook-176-svgrepo-com.svg');
 }
 
 .messenger {
-    background-image: url('/img/messenger-fill-svgrepo-com.svg');
+    background-image: url('./img/messenger-fill-svgrepo-com.svg');
 }
 
 .twitter {
-    background-image: url('/img/twitter-svgrepo-com.svg');
+    background-image: url('./img/twitter-svgrepo-com.svg');
 }
 
 .instagram {
-    background-image: url('/img/instagram-svgrepo-com.svg');
+    background-image: url('./img/instagram-svgrepo-com.svg');
 }
 
 .github {
-    background-image: url('/img/github-svgrepo-com.svg');
+    background-image: url('./img/github-svgrepo-com.svg');
 }
 
 .discord {
-    background-image: url('/img/discord-svgrepo-com.svg');
+    background-image: url('./img/discord-svgrepo-com.svg');
 }
 
 .email {
-    background-image: url('/img/email-svgrepo-com.svg');
+    background-image: url('./img/email-svgrepo-com.svg');
 }
 
 #profile {
